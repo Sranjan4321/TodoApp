@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(108, 116, 116, 0.876);
+}
+.header{
+    display: inline-block;
+    background-color: rgb(245, 181, 64);
+    color: white;
+}
+.dataEnter{
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 4px solid rgb(245, 181, 64);
+    text-transform: uppercase;
+    margin-bottom: .3rem;
+}
+.dataEnter:focus{
+    outline: none;
+   
+}
+.databtn{
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+    border-bottom: 3px solid rgb(245, 181, 64) ;
+    cursor: pointer;
+    color: rgb(245, 181, 64);
+    
+}
+.databtn:active{
+    transform: scale(1.2);
+}
+
+.items{
+    display: flex;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 50%;
+   position:relative;
+  border-bottom: 1px solid red;
+  background-color: aqua;
+  margin: 0px;
+  text-transform: capitalize;
+  align-items: flex-start;
+  cursor: pointer;
+  
+   /* transform: translate(-50%,0); */
+   
+}
+.items:hover{
+    background-color: rgb(0, 217, 255);
+}
+.items:hover,.itembtn:hover{
+    font-size: 1.8rem;
+    transition: .8s all;
+}
+.itembtn{
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: white;
+    background-color: aqua;
+    border-bottom: 1px solid red;
+}
+
+.submitbtns{
+   
+    cursor: pointer;
+    width: 8rem;
+    font-weight: 800;
+    background-color:rgb(245, 181, 64) ;
+    border: none;
+    box-shadow:2px 2px 5px black;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.submitbtns:active,
+.submitbtns:hover
+{
+    outline: none;
+    transform: translateY(.2rem);
+   
+    transform: scale(1.1);
+    transition: o.8s all;
+}
